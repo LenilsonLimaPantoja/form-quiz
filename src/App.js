@@ -36,7 +36,7 @@ function App() {
             </p>
             <li onClick={() => handleDados('Toda semana', 'pergunta_2')}><span>Toda semana</span> <MdKeyboardDoubleArrowRight /></li>
             <li onClick={() => handleDados('15 em 15 dias', 'pergunta_2')}><span>15 em 15 dias</span><MdKeyboardDoubleArrowRight /></li>
-            <li onClick={() => handleDados('1 X ao mês', 'pergunta_2')}><span>1 X ao mês</span><MdKeyboardDoubleArrowRight /></li>
+            <li onClick={() => handleDados('1x ao mês', 'pergunta_2')}><span>1x ao mês</span><MdKeyboardDoubleArrowRight /></li>
           </ul>
           <ul style={{ display: dados.pergunta_3 || !dados.pergunta_2 ? 'none' : 'flex' }}>
             <p>
