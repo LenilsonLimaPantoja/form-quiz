@@ -48,7 +48,7 @@ function App() {
           </ul>
           <ul style={{ display: !dados.pergunta_1 || !dados.pergunta_2 || !dados.pergunta_3 ? 'none' : 'flex' }}>
             <p>
-              <span style={{ width: '100%', left: 0 }}>Finalizado! Obrigado por participar</span>
+              <span style={{ width: '100%', left: 0 }}>Finalizado! Obrigado por participar!</span>
             </p>
           </ul>
         </div>
