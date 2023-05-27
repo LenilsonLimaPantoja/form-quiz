@@ -99,11 +99,23 @@
   }
   @media (max-width: 680px) {
     .area-container {
+      height: 100vh;
       .card-left {
         justify-content: center;
+        align-items: flex-end;
+        flex-grow: 1;
+        min-height: 50%;
+        width: 100%;
         img {
-          width: 200px;
+          width: 240px;
         }
+      }
+      .card-right {
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        flex-grow: 1;
+        min-height: 50%;
       }
     }
   }
@@ -111,6 +123,7 @@
 @media (max-width: 680px) {
   .area-container {
     flex-direction: column;
+    align-items: center;
     align-items: center;
   }
 }
